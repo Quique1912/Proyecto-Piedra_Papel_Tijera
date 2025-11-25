@@ -34,7 +34,7 @@ Resume as características do contorno nunha táboa co formato:
 
 Contorno de tarefas | Observable| Axentes | Determinista | Episódico | Estático | Discreto | Coñecido
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
- RPS | Partially | Multiagente | Stockhastic | Episodic | Estatic |  |  |
+ RPS | Parcialmente: Ya que no puedes ver lo que va a hacer el rival | Multiagente: Porque juegan dos personas, por lo que es un entorno que necesita de varios agentes para darse | No Determinista: Porque no podemos controlar todas las variables que se pueden dar | Episodico: Ya que cada enfrentamiento es aislado y no afecta al siguiente | Estatico: Ya que no influye el paso del tiempo para tomar una acción, debe elegirse por anticipado | Discreto: Porque tiene una cantidad finita de posibilidades, que son piedra, papel o tijera | Conocido: Porque ya se sabe que combinacion gana cual otra y que es lo que puedes sacar |
 
 No libro atoparás unha táboa semellante:
 
