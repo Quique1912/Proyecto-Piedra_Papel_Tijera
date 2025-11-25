@@ -34,7 +34,7 @@ Resume as características do contorno nunha táboa co formato:
 
 Contorno de tarefas | Observable| Axentes | Determinista | Episódico | Estático | Discreto | Coñecido
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
- RPS | Partially | Multiagente | Stockhastic | Episodic |  |  |
+ RPS | Partially | Multiagente | Stockhastic | Episodic | Estatic |  |  |
 
 No libro atoparás unha táboa semellante:
 
