@@ -34,7 +34,7 @@ Resume as características do contorno nunha táboa co formato:
 
 Contorno de tarefas | Observable| Axentes | Determinista | Episódico | Estático | Discreto | Coñecido
 :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
- RPS | - | - | - | - | - |  - |  - |
+ RPS | Un entorno es observable es aquel que presenta tres casos, uno totalmente observable en el que se puede mediante sensores observar todo el entorno, otro parcialmente observable en el que no se tienen suficientes maneras de detectar todo el entorno, y otro inobservable que no se tienen recursos para observar | Existen dos tipos de entornos: agente y multiagente, en el de un solo agente es capaz uno solo de resolver una situacion, mientras que en el multiagente, es necesaria la participacion de varios agentes para realizar la tarea, por ejemplo en ajedrez se necesitan dos agentes para poder jugar | Es un entorno determinista cuando depende completamente de las acciones del agente, por ejemplo conducir un taxi no es determinista porque depende de factores externos al conductor, como el trafico o si se le pincha una rueda | - | - |  - |  - |
 
 No libro atoparás unha táboa semellante:
 
@@ -105,7 +105,7 @@ Especifica todas as características da contorna de tarefas do RPS, justificando
 Selecciona un tipo de axente adecuado para o RPS e debuxa un modelo preciso da estrutura do axente, incluíndo os compoñentes específicos do tipo elixido, baseándoche nos conceptos do capítulo 2 _"Intelligent Agents"_.
 
 É moi importante que ademáis da figura escribas un texto enumerando e xustificando a presenza dous comppñentes recollidos na figura anterior. Sen explicacións a figura non se avalía.
-
+src
 3.**Implementación en Python**
 
 Implementa en Python todos os compoñentes da estrutura do axente de forma correcta e eficiente, creando unha función axente que xoga ao RPS seguindo a lóxica do tipo de axente seleccionado. O código cumpre cos principios SOLID, especialmente SRP e OCP, permitindo estender a lóxica a outras versións do xogo. **A estratexia implementada en `get_computer_action()` é creativa e busca maximizar o rendemento do axente**.
